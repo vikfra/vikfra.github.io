@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "How did you implements comments to blog posts?"
+date:    2017-11-17 18:34:00 +0100
+categories: jekyll update
+---
+
+I dont know yet.

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "What do you think of static site generators"
+date:   2017-11-17 17:03:00 +0100
+categories: jekyll update
+---
+
+I dont know yet.
