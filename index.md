@@ -4,3 +4,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+![a picture of me]({{ "/assets/headpicture.jpg" | absolute_url }})
