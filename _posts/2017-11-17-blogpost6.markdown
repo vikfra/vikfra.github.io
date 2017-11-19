@@ -5,4 +5,4 @@ date:    2017-11-17 19:04:00 +0100
 categories: jekyll update
 ---
 
-I dont know yet.
+Open Graph is to make it easier to share your blog for example. When you share it on social media you can make it so the link has an image, title, description and what not. It helps you promote your website.

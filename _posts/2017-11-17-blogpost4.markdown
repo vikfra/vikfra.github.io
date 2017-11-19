@@ -5,4 +5,6 @@ date:    2017-11-17 18:04:00 +0100
 categories: jekyll update
 ---
 
-I dont know yet.
+Humans.txt is used to give information about the sites developer/developers. For example you can name all the developers, location, contact info and when the last update was. Some people consider that this kind of information should not be visable on the website so they put it in a humans.txt instead.
+
+I put the humans.txt in the websites root and wrote my name, location and contact info.

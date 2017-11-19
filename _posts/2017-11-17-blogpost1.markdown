@@ -1,10 +1,32 @@
 ---
 layout: post
-title:  "What do you think of pre-compiling your CSS?"
+title:  "What do you think of pre-compiling your CSS?" 
 date:   2017-11-17 09:25:47 +0100
 categories: jekyll update
 ---
 
-I dont know yet.
+It makes it easier to organize. You can declare your own variables (with $) and for example assign them to name of a font-family, margin size or padding etc.. This makes it much easier to remember the values of certain elements.
 
-                            
+Another thing that is good is nesting. With nesting you can set all the values in an element without repeating yourself with naming the elements over and over. for example: 
+{% highlight scss %}
+//scss:
+body {
+    a{
+        background-color: red;
+    }
+    p{
+        background-color: red;
+    }
+    .posts{
+        float: left;
+    }
+}
+//css:
+body a{background-color: red;}
+body p{background-color: red;}
+body .posts{float: left;}
+{% endhighlight %}
+
+Another perk is mixins which works like a function in javascript where you can write multiple codelines that can be used throughout the project. Mixins can take parameters.
+
+Other perks: Math functions, split up your code(scss) in multiple files to get more structure.
