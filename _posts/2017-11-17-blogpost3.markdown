@@ -7,13 +7,12 @@ categories: jekyll update
 
 Robots, for example web crawlers consume resources of the websites it visits. Adding a robot.txt with modified preferences to your site can prevent webcrawlers to consuming your resources. There are also malicious malware who can gather personal data from your site, a robot.txt can also prevent this with the right preferences.
 
-I could for example put the robots.txt in the root and configured it to block all robots except googles, since I know its safe.
+I put my robot.txt to allow all robots. I did this in order to have a working OGP(Open graph protocol).
 
 Like this:
 {% highlight text %}
-User-agent: Google
-Disallow:
-
 User-agent: *
-Disallow: /
+Disallow:
 {% endhighlight %}
+
+I could have blocked all robots and whitelisted some, that I know are safe.
